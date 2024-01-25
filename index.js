@@ -62,7 +62,7 @@ change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
       .setDetails(` ${getTime()} `)
       //.setAssetsSmallImage(`${popp}`) 
 .setAssetsLargeImage(`${ssss}`)
-.setAssetsLargeText(`CPU : ${num} % | RAM : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)} MB | Wind : ${global.wind} Km/h | Temp : ${global.temp} C°`)
+.setAssetsLargeText(`💻 : ${num} % | 💾 : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)} MB | 🍃 : ${global.wind} Km/h | 🌡 : ${global.temp} C°`)
 .setAssetsSmallText(`ping : ${Math.round(client.ws.ping)}`)
 .addButton(`${ioii}`,`${oooi}`)  
 
