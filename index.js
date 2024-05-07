@@ -62,7 +62,7 @@ change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
       .setDetails(`⏰（  ${getTime()} ）`)
       //.setAssetsSmallImage(`${popp}`) 
 .setAssetsLargeImage(`${ssss}`)
-.setAssetsLargeText(`💻 : ${num} % | 🍃 : ${global.wind} Km/h | 🌡 : ${global.temp} C°`)
+//.setAssetsLargeText(`💻 : ${num} % | 🍃 : ${global.wind} Km/h | 🌡 : ${global.temp} C°`)
 .setAssetsSmallText(`ping : ${Math.round(client.ws.ping)}`)
 .addButton(`${ioii}`,`${oooi}`)  
 
