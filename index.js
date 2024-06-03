@@ -34,8 +34,8 @@ client.on('ready', async () => {
   setInterval(() => {
     const moment = require('moment');
     const created = moment().format('YYYY-MM-DD HH:mm:ss ');
-    const change = ['https://cdn.discordapp.com/attachments/1065988274918797392/1236146515160858675/Lain.gi']; //รูปใหญ่
-     //const poop = ['https://cdn.discordapp.com/attachments/1114551993499918438/1122462459710681170/1095697715238797403.gif','https://cdn.discordapp.com/attachments/1114551993499918438/1122462460817977395/1095697740543049819.gif','https://cdn.discordapp.com/attachments/1114551993499918438/1122462460125921341/1095697719189844048.gif','https://cdn.discordapp.com/attachments/1114551993499918438/1116029023957561425/1110570045454696509.gif']; // รูปเล็ก
+    //const change = ['https://cdn.discordapp.com/attachments/1065988274918797392/1236146515160858675/Lain.gi']; //รูปใหญ่
+     const poop = ['https://cdn.discordapp.com/attachments/1065988274918797392/1236146515160858675/Lain.gi']; // รูปเล็ก
     const change2 = [' ']; // ชื่อสลับ
     const yyyt = [' ']; // ชื่อ button1
     const ddds = ['https://www.youtube.com/watch?v=_JI2uxanJ0w']; // ลิ้ง button1
@@ -48,10 +48,10 @@ client.on('ready', async () => {
 iiio[Math.floor(Math.random()*iiio.length)]; // button 1 ใส่ลิ้ง
     const ioii =
 iooi[Math.floor(Math.random()*iooi.length)]; // button 1 ใส่ชื่อ
-    //const popp =
-//poop[Math.floor(Math.random()*poop.length)]; // รูปเล็ก
-    const ssss = 
-change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
+    const popp =
+poop[Math.floor(Math.random()*poop.length)]; // รูปเล็ก
+    //const ssss = 
+//change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
     const dwada = change2[Math.floor(Math.random()*change2.length)]; // ชื่อสลับคำ
     const r = new Discord.RichPresence()
       .setApplicationId('1112701450150232085')
@@ -60,10 +60,10 @@ change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
       .setState(`📅（ ${moment().format('DD/MM/YYYY')} ）`)
       .setName(`Youtube`)
       .setDetails(`⏰（  ${getTime()} ）`)
-      //.setAssetsSmallImage(`${popp}`) 
-.setAssetsLargeImage(`${ssss}`)
+      .setAssetsSmallImage(`${popp}`) 
+//.setAssetsLargeImage(`${ssss}`)
 //.setAssetsLargeText(`💻 : ${num} % | 🍃 : ${global.wind} Km/h | 🌡 : ${global.temp} C°`)
-.setAssetsSmallText(`ping : ${Math.round(client.ws.ping)}`)
+//.setAssetsSmallText(`ping : ${Math.round(client.ws.ping)}`)
 .addButton(`${ioii}`,`${oooi}`)  
 
       .addButton(`${tyyy}`,`${sddd}`)
